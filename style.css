@@ -1,0 +1,118 @@
+@import url('fonts.css');
+@import url('icons.css');
+@import url('normalize.css');
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  line-height: 1.8;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+}
+
+p.desc {
+  display: inline-block;
+}
+
+header {
+}
+
+ul#list {
+  padding-left:0px;
+  font-size: 12px;
+  min-width: 650px;
+}
+
+ul#list li {
+  list-style-type: none;
+  margin: 0px;
+  border-bottom: 1px solid #999;
+}
+
+ul#list li:hover {
+  background-color: #f0f0f0;
+}
+
+ul#list li:first-child {
+  border-top: 1px solid #999;
+}
+
+.repo, .author, .commit, .lang {
+  display: inline-block;
+}
+
+.repo, .author, .commit {
+  line-height: 21px;
+  padding: 4px;
+}
+
+.commit {
+  font-family: monospace;
+  font-size: 80%;
+}
+
+.repo {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.commit {
+  padding-right: 50px;
+}
+
+.author {
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+.lang {
+  font-size: 18px;
+  line-height: 1;
+  vertical-align: bottom;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  width: 40px;
+  padding: 4px;
+  padding-top: 8px;
+}
+
+.actions {
+  display: inline-block;
+  padding-left: 20px;
+  float: right;
+}
+
+.action {
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: bottom;
+  text-align: center;
+  color: #444;
+  padding: 4px;
+  padding-top: 8px;
+  display: inline-block;
+  padding-right: 10px;
+  cursor: pointer;
+}

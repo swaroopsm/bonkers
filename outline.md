@@ -21,7 +21,7 @@ Each list item comes with:
 - Latest Commit (200 chars)
 - Latest Committed filename
 - Latest Commit author
-- icon to shh!
+- icon to shh! (mouth with zipper)
 - icon to set period
 - icon for predominant language
 Status bar within app to tell us if it is fetching from github, connection down etc...
