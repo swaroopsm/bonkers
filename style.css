@@ -36,12 +36,55 @@ p.desc {
 }
 
 header {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.setting {
+  float: right;
+  margin-top: 10px;
+  font-size: 120%;
+}
+
+.set {
+  line-height: 14px;
+  padding: 10px 7px;
+  display: inline-block;
+}
+
+#notify {
+  min-width: 650px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+.success, .error, .warning {
+  border: 1px solid rgba(252, 103, 64, 1);
+  padding: 5px;
+  font-size: 80%;
+  font-weight: 500;
+  background-color: rgba(252, 103, 64, 0.4);
+  margin-bottom: 10px;
+}
+
+.success {
+  border-color: green;
+  background-color: rgba(24, 128, 0, 0.3);
+}
+
+.warning {
+  border-color: orange;
+  background-color: rgba(254, 167, 0, 0.5);
 }
 
 ul#list {
   padding-left:0px;
   font-size: 12px;
   min-width: 650px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 ul#list li {
@@ -93,7 +136,7 @@ ul#list li:first-child {
   text-align: center;
   background-color: #555;
   color: white;
-  width: 40px;
+  width: 25px;
   padding: 4px;
   padding-top: 8px;
 }
